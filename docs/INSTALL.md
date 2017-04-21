@@ -34,6 +34,9 @@ sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
+
+On Ubuntu 16.04LTS it is necessary to also add nodejs-legacy to satisy the Phantomjs dependency
+sudo apt-get install nodejs-legacy
 ```
 
 ## Install and Configure Redis
